@@ -1,0 +1,64 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+  background-repeat: no-repeat;
+  font-family: 'Droid Sans';
+}
+
+.container {
+  max-width: 500px;
+  min-height: 50px;
+  margin: 50px auto;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, .4);
+  border-radius: 5px;
+  box-shadow: 0 0 4px #666666;
+}
+
+.header {
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Josefin Slab';
+  font-weight: 600;
+  color: #a29ad3;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.add-task-form {
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button {
+  height: 40px;
+  margin: 0 auto;
+  padding: 5px px 15px;
+  border: none;
+  border-radius: 5px;
+  transition: .3s;
+  background: #a6cce4;
+  color: #6e62aa;
+}
+
+h2 {
+  margin: 1em 0;
+  color: #83b7d3;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 1em;
+}
